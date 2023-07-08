@@ -40,9 +40,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         .size(200.dp)
     ){
         Text(
-            text = "Hello $name!",
-            modifier = modifier,
-            color = Color.BLUE
+            text = "Hello $name",
     }
 }
 
