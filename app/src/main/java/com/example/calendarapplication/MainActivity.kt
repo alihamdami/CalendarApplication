@@ -48,6 +48,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     CalendarApplicationTheme {
-        Greeting("Android")
+        Greeting("Welcome to Our Calendar App")
     }
 }
