@@ -36,11 +36,8 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Box(modifier = Modifier
-        .size(200.dp)
-    ){
-        Text(
-            text = "Hello $name!",
+    Column(){
+        
     }
 }
 
