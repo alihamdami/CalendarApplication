@@ -58,6 +58,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
             Text(text = "Hello, ", color = White)
             Text(text = name, color = White)
         }
+        // calendar view
         Column(modifier = Modifier
             .fillMaxHeight()
         ) {
