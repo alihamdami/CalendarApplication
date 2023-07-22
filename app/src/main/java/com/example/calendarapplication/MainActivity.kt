@@ -49,6 +49,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     Box(modifier = Modifier
         .fillMaxSize()
     ){
+        // tab bar
         Column(modifier = Modifier
             .padding(25.dp)
             .fillMaxWidth()
