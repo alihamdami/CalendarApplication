@@ -60,6 +60,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
             Text(text = name, color = White)
         }
         // calendar view
+        // the items of each day
         Column(modifier = Modifier
             .fillMaxHeight()
         ) {
