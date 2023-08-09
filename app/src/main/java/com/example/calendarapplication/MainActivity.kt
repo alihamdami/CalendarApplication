@@ -64,7 +64,12 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         Column(modifier = Modifier
             .fillMaxHeight()
         ) {
-            Box(modifier = Modifier.background(color = Red))
+            Box(modifier = Modifier.background(color = Black) .align(alignment = Alignment.Center)){
+                Box(modifier = Modifier.background(color = White) .size(200.dp))
+                // padding 10dp
+                Box(modifier = Modifier.background(color = White) .size(200.dp))
+                // ...
+            }
         }
     }
 }
