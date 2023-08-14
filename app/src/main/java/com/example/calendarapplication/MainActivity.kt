@@ -69,6 +69,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                 // padding 10dp
                 Box(modifier = Modifier.background(color = White) .size(200.dp))
                 // ...
+                Box(modifier = Modifier.background(color = White) .size(200.dp))
             }
         }
     }
