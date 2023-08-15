@@ -63,6 +63,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         // the items of each day
         Column(modifier = Modifier
             .fillMaxHeight()
+            .color = Color.MaterialTheme(Primary)
         ) {
             Box(modifier = Modifier.background(color = Black) .align(alignment = Alignment.Center)){
                 Box(modifier = Modifier.background(color = White) .size(200.dp))
