@@ -33,6 +33,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             CalendarApplicationTheme {
                 // A surface container using the 'background' color from the theme
+                // back here again
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
